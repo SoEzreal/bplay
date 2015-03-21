@@ -8,6 +8,7 @@ Copyright © 2015
 <https://github.org/simargl>
 
 **Credits**
+
 BASS - Audio library (free for non-commercial use) 
 http://www.un4seen.com/bass.html
 
@@ -20,7 +21,13 @@ http://www.radiosure.com/stations/
 ![Screenshot]
 (https://github.com/simargl/bplay/blob/master/data/screenshot.png "Screenshot")
 
-**How to install?**
+**Download**
+
+[Windows 32-bit](https://github.com/simargl/bplay/blob/master/releases/bplay-1.0.5-win32.tar.xz)
+
+[Linux 64-bit (Compiled in Slackware with static FLTK)](https://github.com/simargl/bplay/blob/master/releases/bplay-1.0.5-linux64.tar.xz)
+
+**How to install from source?**
 
 On Windows:
 ````
@@ -34,7 +41,7 @@ git clone https://github.com/simargl/bplay
 cd bplay
 make install
 ````
-On Linux 64-bit:
+On Linux 32-bit:
 First rename bplay/lib/libbass32.so to bplay/lib/libbass.so, and then:
 ````
 cd bplay
