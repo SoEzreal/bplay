@@ -25,7 +25,7 @@ http://www.radiosure.com/stations/
 
 [Windows 32-bit](https://github.com/simargl/bplay/raw/master/releases/bplay-1.0.5-win32.tar.xz)
 
-[Linux 64-bit (Compiled in Slackware with static FLTK libraries)](https://github.com/simargl/bplay/raw/master/releases/bplay-1.0.5-linux64.tar.xz
+[Linux 64-bit (Compiled in Slackware with static FLTK libraries)](https://github.com/simargl/bplay/raw/master/releases/bplay-1.0.5-linux64.tar.xz)
 
 **How to install from source?**
 
@@ -49,6 +49,6 @@ make install
 ````
 Dependencies:
 ````
-fltk 1.3.x
+fltk >= 1.3.0
 ````
 
