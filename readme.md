@@ -28,23 +28,22 @@ http://www.radiosure.com/stations/
 [Linux 64-bit (Compiled in Slackware with static FLTK libraries)](https://github.com/simargl/bplay/raw/master/releases/bplay-1.0.5-linux64.tar.xz)
 
 **How to install from source?**
-
-On Windows:
 ````
 git clone https://github.com/simargl/bplay
 cd bplay
+````
+On Windows:
+````
 make win
 ````
 On Linux 64-bit:
 ````
-git clone https://github.com/simargl/bplay
-cd bplay
 make install
 ````
 On Linux 32-bit:
-First rename bplay/lib/libbass32.so to bplay/lib/libbass.so, and then:
+
+1. rename bplay/lib/libbass32.so to bplay/lib/libbass.so, then:
 ````
-cd bplay
 make install
 ````
 Dependencies:
